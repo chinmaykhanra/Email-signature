@@ -8,8 +8,8 @@
 }
 
 .container {
-    width: 80%;
-    height: 80%;
+    width: 85%;
+    height: 85%;
     background-color: #fff;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
     border-radius: 10px;
@@ -38,7 +38,7 @@
 
 .child {
     width: 80%;
-    height: 52%;
+    height: 50%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -140,19 +140,19 @@
 
 @media screen and (max-width: 430px) {
     .container {
-        width: 90%;
-        height: 90%;
+        width: 100%;
+        height: 95%;
     }
 
     .parent {
-        width: 95%;
-        height: 90%;
+        width: 100%;
+        height: 100%;
     }
 
     .child {
         flex-direction: column;
-        height: 70%;
-        width: 85%;
+        height: 80%;
+        width: 80%;
     }
 
     .image-section img {
